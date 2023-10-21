@@ -43,6 +43,23 @@
         .imgcla {
             margin-left: 10PX;
         }
+
+        .last {
+            margin-left: 1000px;
+            margin-top: 20px;
+        }
+
+        @media screen and (max-width: 1128px) {
+
+            .last {
+                margin-left: 200px;
+
+            }
+
+            .lastimg {
+                width: 100px;
+            }
+        }
     </style>
 
 
@@ -124,9 +141,10 @@
 
 
                     <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#LoginModal" style="margin-left: 10px;">
+                    <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#LoginModal"
+                        style="margin-left: 10px;">
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="20" fill="currentColor"
-                            class="bi bi-person-fill" viewBox="0 0 16 16" >
+                            class="bi bi-person-fill" viewBox="0 0 16 16">
                             <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
                         </svg>
                     </button>
@@ -137,32 +155,35 @@
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h1 class="modal-title fs-5 text-bg-dark" id="LoginModalLabel">Login to CodeCourse</h1>
+                                    <h1 class="modal-title fs-5 text-bg-dark" id="LoginModalLabel">Login to CodeCourse
+                                    </h1>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal"
                                         aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body text-bg-dark">
                                     <form>
                                         <div class="mb-3">
-                                          <label for="exampleInputEmail1" class="form-label">Email address</label>
-                                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                                          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                                aria-describedby="emailHelp">
+                                            <div id="emailHelp" class="form-text">We'll never share your email with
+                                                anyone else.</div>
                                         </div>
                                         <div class="mb-3">
-                                          <label for="exampleInputPassword1" class="form-label">Password</label>
-                                          <input type="password" class="form-control" id="exampleInputPassword1">
+                                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                                            <input type="password" class="form-control" id="exampleInputPassword1">
                                         </div>
                                         <div class="mb-3 form-check">
-                                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
                                         </div>
                                         <button type="submit" class="btn btn-primary">Submit</button>
-                                      </form>
+                                    </form>
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary"
                                         data-bs-dismiss="modal">Close</button>
-                                    
+
                                 </div>
                             </div>
                         </div>
@@ -384,12 +405,16 @@
 
             <BR></BR>
 
-            <div style="display:flex; flex-wrap: wrap;">
 
 
-                <img src="CodeCourse logo.png" alt="logo" width="200px">
+            <div>
 
-                <p style="margin-left: 1000px; margin-top: 20px;">All rights reserved © RohithVishnu, Inc.</p>
+
+                <img class="lastimg" src="CodeCourse logo.png" alt="logo" width="200px">
+
+                <p class="last">All rights reserved © RohithVishnu, Inc.</p>
+
+
             </div>
 
         </div>
